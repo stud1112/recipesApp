@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/* h2 {
+    margin-bottom: 0;
+}
+app-root {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head head"
+                         "shop recipe"
+                         "shop recipe";
+    padding: 0 10px 0 10px
+} */
