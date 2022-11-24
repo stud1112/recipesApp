@@ -5,7 +5,7 @@ import { CoursescardsComponent } from './courses/coursescards/coursescards.compo
 import { SidemenuComponent } from './courses/sidemenu/sidemenu.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
-/* this is a second change made in newb branch */
+/* this is a third change made in newb branch */
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'recipes', pathMatch: 'full' },
