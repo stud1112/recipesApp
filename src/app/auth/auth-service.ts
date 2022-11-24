@@ -116,7 +116,7 @@ export class AuthService {
     //     switch (errorRes.error.error.message) {
     //         case 'EMAIL_EXISTS': errMsg = 'This email already exists!'; break;
     //         case 'EMAIL_NOT_FOUND': errMsg = 'No user found with this email!'; break;
-    //         case 'INVALID_PASSWORD': errMsg = 'The password inserted is incorrect';
+    //         case '': errMsg = 'The password inserted is incorrect';
     //     }
     //     return throwError(() => new Error(errMsg));
     // }

@@ -15,11 +15,17 @@ import * as fromApp from './store/app.reducer';
 import { AuthEffects } from './auth/store/auth.effects';
 import { RecipeEffects } from './recipes/store/recipe.effects';
 import { environment } from 'src/environments/environment';
+import { CoursesComponent } from './courses/courses.component';
+import { CoursescardsComponent } from './courses/coursescards/coursescards.component';
+import { SidemenuComponent } from './courses/sidemenu/sidemenu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    CoursesComponent,
+    CoursescardsComponent,
+    SidemenuComponent
   ],
   imports: [
     BrowserModule,
